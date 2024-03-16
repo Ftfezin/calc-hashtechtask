@@ -37,14 +37,21 @@ body{
 }
 
 @media only screen and (max-width: 767px){
+
+    .content{
+        height: 500px;
+        width: 500px;
+    }
+
     .content .box{
         width: 400px;
-        margin-bottom: 300px;
+        margin-top: 500px;
     }
 
     .button{
         width: 70px;
         height: 100px;
+        margin-left: 20px;
     }
 }
 
@@ -52,5 +59,6 @@ body{
     .button{
         width: 60px;
         height: 100px;
+        margin-left: 25px;
     }
 }
