@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calc</title>
+</head>
+<body> 
+
+    <div class="content">
+        <div class="box">
+
+            <input type="text" id="output-screen">
+            <br>
+            <input class="button" type="button" value="7" onclick="btnClick(value)">
+            <input class="button" type="button" value="8" onclick="btnClick(value)">
+            <input class="button" type="button" value="9" onclick="btnClick(value)">
+            <input class="button op" type="button" value="/" onclick="btnClick(value)">
+            <br>
+            <input class="button" type="button" value="4" onclick="btnClick(value)">
+            <input class="button" type="button" value="5" onclick="btnClick(value)">
+            <input class="button" type="button" value="6" onclick="btnClick(value)">
+            <input class="button op" type="button" value="*" onclick="btnClick(value)">
+            <br>
+            <input class="button" type="button" value="1" onclick="btnClick(value)">
+            <input class="button" type="button" value="2" onclick="btnClick(value)">
+            <input class="button" type="button" value="3" onclick="btnClick(value)">
+            <input class="button op" type="button" value="+" onclick="btnClick(value)">
+            <br>
+            <input class="button clear" type="button" value="C" onclick="clearScreen()">
+            <input class="button" type="button" value="0" onclick="btnClick(value)">
+            <input class="button result" type="button" value="=" onclick="findResult()">
+            <input class="button op" type="button" value="-" onclick="btnClick(value)">
+
+
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
